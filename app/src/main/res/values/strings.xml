@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">happyb2</string>
+    <string name="happy_birthday_yourfriendhere">Happy Birthday YOURFRIENDHERE</string>
+    <string name="from_me">from me</string>
+    <string name="todo">TODO</string>
+    <string name="from_mansoor">from_Mansoor</string>
+    <string name="rom_mansoor">from mansoor</string>
+    <string name="info_text">door de Corona maatregelen wordt er geadvisseert om via uber eats te bestellen</string>
+    <string name="ubereats_menu">Ubereats menu</string>
+    <string name="text">downtown is een lunchroom in amsterdam die verschillende maaltijden verkoopt</string>
+    <string name="downtownlogo">DowntownLogo</string>
+    <string name="restaurant">Restaurant</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-5dp"
+        android:src="@drawable/biggerdowntown"
+        android:contentDescription="@string/downtownlogo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-5dp" />
+
+    <ImageView
+        android:id="@+id/Restaurant"
+        android:layout_width="397dp"
+        android:layout_height="240dp"
+        android:layout_below="@id/Logo"
+        android:layout_marginTop="11dp"
+        android:contentDescription="@string/restaurant"
+        android:src="@drawable/lunchroom" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="206dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/Restaurant"
+        android:layout_marginTop="5dp"
+        android:text="@string/text" />
+
+    <ImageView
+        android:id="@+id/pancake"
+        android:layout_width="188dp"
+        android:layout_height="124dp"
+        android:layout_below="@id/Restaurant"
+        android:layout_marginStart="-19dp"
+        android:layout_marginLeft="-19dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/text"
+        android:layout_toRightOf="@id/text"
+        android:contentDescription="pancake"
+        android:src="@drawable/pancake" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pancake"
+        android:layout_marginTop="-2dp"
+        android:text="@string/info_text" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="157dp"
+        android:layout_height="152dp"
+        android:layout_below="@id/info"
+        android:layout_marginTop="-1dp"
+        android:text="ubereats_menu" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="163dp"
+        android:layout_below="@id/info"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="-15dp"
+        android:layout_toRightOf="@id/button"
+        android:paddingBottom="-20dp"
+        android:src="@drawable/ubereats" />
+
+
+</RelativeLayout>
